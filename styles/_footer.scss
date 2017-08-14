@@ -1,0 +1,57 @@
+.footer__background {
+    background-image: url("../images/footer_plank1.jpg");
+    height: 100px;
+    width: 100%;
+    background-size: cover;
+}
+
+.logos {
+    display: flex;
+    flex-direction: row-reverse;
+
+
+}
+
+.footer__facebook--logo > a > img  {
+    height: 58px;
+    width: 100px;
+    background-size: cover;
+    margin-right: 60px;
+    transition: 1s;
+    margin-top: 21px;
+
+}
+.footer__facebook--logo > a > img:hover {
+    transform: scale(2);
+}
+
+.footer__linkedIn--logo > a > img {
+    height: 33px;
+    width: 109px;
+    margin-top:34px;
+    margin-right: 60px;
+    transition: 1s;
+}
+
+.footer__linkedIn--logo > a > img:hover {
+    transform: scale(2);
+}
+
+.footer__gitHub--logo > a > img {
+    height: 33px;
+    width: 100px;
+    margin-right: 60px;
+    margin-top: 34px;
+    transition: 1s;
+}
+
+.footer__gitHub--logo > a > img:hover {
+    transform: scale(2);
+}
+
+
+
+
+// .footer__facebook--logo > a > img:active {
+//     margin-right: 100px;
+// }

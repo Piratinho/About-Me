@@ -1,0 +1,70 @@
+.header__background {
+    background-image: url("../images/home-header-small.jpg");
+    height: 200px;
+    width: 100%;
+    background-size: cover;
+    background-position: bottom;
+}
+
+
+nav>ol {
+    display: flex;
+    text-align:right;
+
+}
+
+.header__menu {
+    font-size: 1.5rem;
+    line-height: 4rem;
+    font-weight: 700;
+    width: 170px;
+    // border: 1px solid red;
+}
+
+.header__menu::first-letter {
+    font-size: 2rem;
+}
+
+.header__menu > a {
+    text-decoration: none;
+    color: red;
+    transition: 0.4s;
+}
+
+.header__menu > a:hover {
+    border-radius: 50%;
+    font-size: 2rem;
+    box-shadow: 0 0 50px 20px white;
+}
+
+.header__submenu {
+    // border: 1px solid yellow;
+    width: 170px;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    font-weight: 600;
+    visibility: hidden;
+    // poniżej to do wjazdu z lewej czas i odległość
+    transition: 1.5s;
+    margin-left: -1000px;
+}
+
+.header__submenu > li > a {
+    color: yellow;
+    text-decoration: none;
+    // pojawianie się białego obramowania wokół pozycji submenu
+    transition: 0.4s;
+}
+
+// ta linijka odpowiada za pojawianie się submenu, hover jest wstawiony pomiędzy element poprzedzający, a  to co ma się pojawić.
+.header__menu:hover > .header__submenu {
+    visibility: visible;
+    flex-direction: column;
+    transform: translateX(1000px);
+}
+
+.header__submenu > li > a:hover {
+    // text-shadow: 2px 2px red;
+    box-shadow: 0 0 50px 20px white;
+    border-radius: 50%;
+}

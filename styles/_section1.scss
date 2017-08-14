@@ -1,0 +1,76 @@
+.section1 {
+    width: 100%;
+    background-image: linear-gradient(white, beige);
+}
+
+.section1__slider {
+
+}
+
+.section1__frame {
+    width: 980px;
+    height: 560px;
+    border: 10px solid gold;
+    margin: 50px auto;
+    border-radius: 15px;
+}
+
+.slider__picture {
+    display: none;
+}
+
+
+
+.showIt {
+    display:block;
+}
+
+.unvisible {
+    display: none;
+}
+
+.section1__arrayForward, .section1__arrayBack {
+    height: 64px;
+    width: 64px;
+    background-image: url("../images/forward.png");
+    background-size: contain;
+    margin-top: 258px;
+}
+
+.section1__arrayForward {
+    float: right;
+    background-image: url("../images/forward.png");
+}
+
+.section1__arrayBack {
+    float: left;
+    background-image: url("../images/back.png");
+}
+.tessst {
+    height: 50px;
+    width: 50px;
+    border: 5px solid red;
+    border-radius: 50%;
+    margin: 0 auto;
+    background-color: red;
+    visibility: hidden;
+}
+
+
+
+
+
+// Proste przejście w inny kolor!!!
+// #test {
+//     border: 3px solid red;
+//     width: 50px;
+//     height: 50px;
+//     border-radius: 50%;
+//     background-color: pink;
+//     margin: 0 auto;
+//     transition: all linear 1s;
+// }
+//
+// #test:hover {
+//     background-color: orange;
+// }
